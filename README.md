@@ -68,8 +68,10 @@ api_key = os.environ['apy']
 rasp_api_key = os.environ['rasp_api_key']
 telebot_api_key = os.environ['telebot_api_key']
 ```
+TODO: описать для чего ключи
 
 ### Retrieval-Augmented Generation
+TODO: описать рэг
 ![image](https://github.com/YurDuiachenko/readme/assets/72216941/40121c3f-2a0e-40be-9f84-77631fc72920)
 
 ![image](https://github.com/YurDuiachenko/readme/assets/72216941/0a0ba9ff-aea6-4177-bfc4-4e8ed91ca966)
@@ -94,23 +96,6 @@ error_message = 'Ошибка при обработке данных. Попро
 
 
 ### Телеграм-бот
-
-На данной стадии мы первым делом выполним установку пакетов **telebot** и **requests** через утилиту управления пакетами **pip**.
-```jupyter
-%pip install telebot requests
-```
-
-Следующим шагом пропишем строки, которые импортируют необходимые *модули* для работы с **Telegram API** через библиотеку **telebot**.
-```jupyter
-import telebot
-from telebot import types
-```
-
-Загрузим *ключ API бота* из переменной окружения **telebot_api_key**.
-```jupyter
-import os
-telebot_api_key = os.environ['telebot_api_key']
-```
 
 Создадим *экземпляр* бота с использованием загруженного *ключа API*.
 ```jupyter
