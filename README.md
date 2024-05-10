@@ -70,8 +70,10 @@ telebot_api_key = os.environ['telebot_api_key']
 ```
 
 ### Retrieval-Augmented Generation
+![image](https://github.com/YurDuiachenko/readme/assets/72216941/40121c3f-2a0e-40be-9f84-77631fc72920)
 
-Тут должен быть RAG.
+![image](https://github.com/YurDuiachenko/readme/assets/72216941/0a0ba9ff-aea6-4177-bfc4-4e8ed91ca966)
+
 
 ### Yandex API Расписаний
 
